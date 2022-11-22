@@ -1,5 +1,12 @@
-/* Mobile & Tablet */
-@media (max-width: 740px) {
+/* PC */
+@media (min-width: 64em) {
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* Mobile*/
+@media (max-width: 46.1875em) {
   .s-col-ful {
     width: 100% !important;
   }
@@ -10,8 +17,7 @@
     margin-top: 16px !important;
   }
   .s-mt-32 {
-    margin-top: 32px!important;
-
+    margin-top: 32px !important;
   }
   #header {
     overflow: hidden;
@@ -41,6 +47,16 @@
   }
   #nav li {
     display: block;
+  }
+
+  #nav > li > a {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    line-height: 46px;
+    padding: 0px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   #nav .subnav {
     display: none;
@@ -77,7 +93,7 @@
     display: inline-block;
     cursor: pointer;
     border: none;
-}
+  }
   .contact-form .form-submit {
     float: right;
     width: 100%;
@@ -86,5 +102,29 @@
     background-color: #000;
     color: #fff;
     font-size: 15px;
+  }
 }
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+  .tours-list .buy-ticket {
+    font-family: sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+  }
+  .contact-form .form-submit {
+    float: right;
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+  }
 }
