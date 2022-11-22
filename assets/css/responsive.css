@@ -127,4 +127,13 @@
     color: #fff;
     font-size: 15px;
   }
+  #footer .social-list a {
+    font-size: 32px;
+    padding: 4px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+  }
+  #footer p a {
+    padding: 8px 2px;
+}
 }
